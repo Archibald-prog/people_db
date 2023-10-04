@@ -46,10 +46,6 @@ def contact(request):
     return HttpResponse("Обратная связь")
 
 
-def login(request):
-    return HttpResponse("Авторизация")
-
-
 def pageNotFound(request, exception):
     return HttpResponseNotFound('<h1>Страница не найдена</h1>')
 
